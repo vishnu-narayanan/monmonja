@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" > 
+  <Button 
+    android:id="@+id/speedUpBtn" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1" 
+  android:text="Speed Up"/> 
+  <Button 
+    android:id="@+id/speedDownBtn" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1" 
+    android:text="Speed Down"/> 
+    <LinearLayout android:orientation="horizontal" 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="fill_parent" 
+	  android:layout_weight="1"> 
+		  <Button 
+		    android:id="@+id/speedOkBtn" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1" 
+		    android:text="Ok"/> 
+		  <Button 
+		    android:id="@+id/speedCancelBtn" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1" 
+		    android:text="Cancel"/> 
+    </LinearLayout> 
+</LinearLayout> 
