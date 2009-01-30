@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+ * Copyright (C) 2009 AlmondMendoza.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *
+ *	Creatd By: Almond Joseph Mendoza
+ *	Last Modified Date: Sunday 27, 2008
+ *   
+ -->
+ 
+<resources>
+    <string name="app_name">Talking Caller</string>
+    
+	<string name="settings">Settings</string>
+	<string name="instructions">Instructions</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="call">Call</string>
+	<string name="back">Back</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="next">Next</string>
+	<string name="speed_up">Speed Up</string>
+	<string name="speed_down">Speed Down</string>
+
+    <string name="welcome_note">You opened Talking Caller. For instruction press the menu button</string>
+    <string name="welcome_note_with_instruction">You opened Talking Caller. Instruction, 
+    	Slide from top or bottom to scroll over the list, tap the screen once to hear the name of the contact,
+    	tap the same location on the screen to call, click the menu button for speed settings</string>
+     
+	<string name="speed_settings">Click the bottom left screen to edit the settings or bottom right for other instructions</string>
+	<string name="saved_preferences">Saved your preferences. Back to your contact List</string>
+	<string name="cancel_preferences">Canceled your preferences. Back to your contact List</string>
+	
+	<string name="tap_to_call">Tap the top to call %1s or bottom to cancel.</string>
+	<string name="call_start">Start calling %1s</string>
+	<string name="call_cancel">Call canceled. Back to your contact List</string>
+	
+	<string name="testing_phrase">I am testing the speed of my voice</string>
+	<string name="testing_speed_up_phrase">Speed Up. I am testing the speed of my voice</string>
+	<string name="testing_speed_down_phrase">Speed Down. I am testing the speed of my voice</string>
+    <string name="slowest_testing_phrase">This is the slowest i can go</string>
+    <string name="fastest_testing_phrase">This is the fastest i can go</string>
+    <string name="instructions_speech">Instruction.\nSlide from top or bottom to scroll over the list.\nTap 
+    	the screen once to hear the name of the contact.\nTap the same location on the screen to call. \nTap 
+    	the bottom of the screen to go back to your contact list</string>
+    <string name="instructions_speech_text">Instruction.\nSlide from top or bottom to scroll over the list.\nTap 
+    	the screen once to hear the name of the contact.\nTap the same location on the screen to call. \nTap 
+    	the bottom of the screen to go back to your contact list</string>	
+    <string name="back_to_your_contact_list">Back to your contact List</string>
+    
+ 	<string name="open_preferences">Preferences. Are you visually impaired? Tap the top if yes and i would provide a
+ 		special preferences screen for you.
+ 	</string>
+	<string name="speed_setting_special">Speed Settings. Click the top to speed up the voice, middle to make it slower,
+		 bottom left to save and bottom right to cancel</string> 
+	<string name="speed_settings_cancel">Canceled the speed settings, now back to your contact list</string>
+	<string name="speed_setting_saved">Saved your speed settings, now back to your contact list</string>
+		 
+	<string name="normal_preferences_default_language">Default Speech Language</string>
+	<string name="normal_preferences_default_speech_rate">Default Speech Rate</string>
+	<string name="normal_preferences_preview">Listen to preview</string>
+	<string name="normal_preferences_default_language_words">Default Text Language</string>
+	
+	<string name="preferences_talking_caller_id">Talking Caller Id</string>
+	<string name="preferences_talking_caller_id_des_on">(Default) Applications will speak the name/number of the incoming call</string>
+	<string name="preferences_talking_caller_id_des_off">Applications will not speak the name/number of the incoming call</string>
+	
+	
+	<string name="preferences_read_sms">Read SMS</string>
+	<string name="preferences_read_sms_desc_on">(Default) Applications will read the incoming SMS</string>
+	<string name="preferences_read_sms_desc_off">Applications will not read the incoming SMS</string>
+	
+	<string name="preferences_language_open_speech">Language Settings.\n
+		Tap the top to change language. 
+		Tap the bottom left to go the speed settings.
+		Tap the bottom right to go back to your contact list </string>
+	
+	
+	<string name="call_ended">Call Ended</string>
+	<string name="incoming_call_ended">%1s has ended the call</string>
+	<string name="incoming_ringing">%1s is calling</string>
+	
+	<string name="received_new_sms">Received compressed SMS From %1s . The message is %2s</string>
+	
+	
+ </resources>
