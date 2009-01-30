@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Talking Caller</string>
+    
+	<string name="settings">Settings</string>
+	<string name="instructions">Instructions</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="call">Tawagan</string>
+	<string name="back">Balik</string>
+	<string name="yes">OO</string>
+	<string name="no">Hindi</string>
+	<string name="next">Susunod</string>
+	<string name="speed_up">Pabilisan</string>
+	<string name="speed_down">Pabagalan</string>
+
+    <string name="welcome_note">Binuksan mo ang Tok-ing kol'ler. Pa-ra sa ins-trak-syon, pindutin lang ang mi-nu botton</string>
+    <string name="welcome_note_with_instruction">Binuksan mo ang Tok-ing kol'ler. ins-trak-syon, 
+    	Slaid mula sa itaas o sa ilalim para maghanap sa-yong listahan, 
+    	ta-pikin ang skrin para mapakingan ang pangalan nang contact,
+    	ta-pikin muli sa pare-hong loka-syon pa-ra tawaggan ito</string>
+     
+	<string name="speed_settings">Tappikin sa ka-lee-wang  ba-ba para sa settings oo ka nang ba-ba para sa ins-trak-syon</string>
+	<string name="saved_preferences">nai-seib ang i-yong preperens. Balik sa iyong listahan</string>
+	<string name="cancel_preferences">Canceled your preferences. Back to your contact List</string>
+	
+	<string name="tap_to_call">tapikin ang itaas para tawagan si %1s o sa ibaba para i-kansel.</string>
+	<string name="call_start">Sisimulan tawagan si %1s</string>
+	<string name="call_cancel">Tawag ikinansel. Balik sa iyong listahan</string>
+	
+	<string name="testing_phrase">Sinusubukan ko ang boses ko</string>
+	<string name="testing_speed_up_phrase">Pinabi-lis. Sinusubukan ko ang boses ko</string>
+	<string name="testing_speed_down_phrase">Pinaba:gal. Sinusubukan ko ang boses ko</string>
+    <string name="slowest_testing_phrase">Ito ang pinakamaba-gal na pagsasalita ko:</string>
+    <string name="fastest_testing_phrase">Ito ang pinakamabilis na pagsasalita ko:</string>
+    <string name="instructions_speech">ins-trak-syon, 
+    	Slaid mula sa itaas o sa ilalim para maghanap sa-yong listahan, 
+    	ta-pikin ang skrin para mapakingan ang pangalan nang contact,
+    	ta-pikin muli sa pare-hong loka-syon pa-ra tawaggan ito
+    	ta-pikin ang iba-ba para bumalik sayong listahan</string>
+    <string name="instructions_speech_text">Instruction.\n
+    	Slide mula sa itaas o sa baba para maghanap sa listahan,\n
+    	tapikin ang screen para mapakinggan ang pangalan ng contact,\n
+    	tapikin muli sa parehong lokasyon para tawagan ito.\n
+    	Tapikin ang ibaba para bumalik sa iyong listahan
+    </string>
+    <string name="back_to_your_contact_list">Balik sa iyong listahan</string>
+    
+ 	<string name="open_preferences">preperens. I-kaw bay may karam-daman sa pagting'in? Kung o'-o' tapikin ang itaas at ihahan'da ko ang is-pisyal na preperens skrin pa-ra sayo.	</string>
+	<string name="speed_setting_special">Ka-bilisan nang pagsasali-ta.
+		 Tapikin ang itaas para pabili-sin ang pagsasali-ta, 
+		 git-na para pabagalan ito,
+		 babang kaliwa para i-seib ito o babang kanan para i-kansel</string>  
+	<string name="speed_setting_saved">nai-seib ang i-yong preperens. Balik sa iyong listahan</string> 
+		 
+	<string name="normal_preferences_default_language">Default na Salita</string>
+	<string name="normal_preferences_default_speech_rate">Default na Speech Rate</string>
+	<string name="normal_preferences_preview">Makinig sa isang preview</string>
+	<string name="normal_preferences_default_language_words">Default na Wika</string>
+	
+	<string name="preferences_talking_caller_id">Talking Caller Id</string>
+	<string name="preferences_talking_caller_id_des_on">(Default) Magsasalita kapagmay padating na tawag</string>
+	<string name="preferences_talking_caller_id_des_off">Hindi magsasalita kapagmay padating na tawag</string>
+	
+	<string name="preferences_read_sms">Basahin ang SMS</string>
+	<string name="preferences_read_sms_desc_on">(Default) Magsasalita kapag may bagong SMS</string>
+	<string name="preferences_read_sms_desc_off">Hindi magsasalita kapag may bagong SMS</string>
+	
+	<string name="preferences_language_open_speech">Lingguwahe.\n
+		Tapikin ang itaas para pali-tan ang Lingguwahe. 
+		Tapikin ang babang kaliwa pa-ra sa kabilisan nang pag-sasalita.
+		Tapikin ang babang kanan para bumalik sa i-yong listahan </string>
+		
+	<string name="call_ended">Ta-pos ang ta'wag</string>
+	<string name="incoming_call_ended">Binaba ni %1s ang ta'wag</string>
+	<string name="incoming_ringing">Tumata-wag si %1s</string>
+	
+	<string name="received_new_sms">May bagong text ka galing kay %1s . Ang mensahi ay %2s</string>
+ </resources>

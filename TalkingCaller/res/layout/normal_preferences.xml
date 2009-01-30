@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2009 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *
+ *	MODIFIED BY: Almond Joseph Mendoza
+ *	Last Modified Date: Sunday 25, 2008
+ *   
+ -->
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <ListPreference
+                android:key="speech_lang_pref"
+                android:title="@string/normal_preferences_default_language"
+                android:entries="@array/language_entries"
+                android:defaultValue="en-us"
+                android:entryValues="@array/speech_language_values"  />
+
+                
+        <ListPreference
+                android:key="rate_pref"
+                android:title="@string/normal_preferences_default_speech_rate"
+                android:entries="@array/speed_entries"
+                android:defaultValue="190"
+                android:entryValues="@array/speed_entryvalues"  />
+
+                
+        <Preference
+                android:key="preview" 
+                android:title="@string/normal_preferences_preview" />
+        
+        <ListPreference
+                android:key="words_lang_pref"
+                android:title="@string/normal_preferences_default_language_words"
+                android:entries="@array/language_entries"
+                android:defaultValue="en-us"
+                android:entryValues="@array/language_values"  />
+                
+		<CheckBoxPreference
+                android:key="talking_caller_id"
+                android:title="@string/preferences_talking_caller_id"
+                android:summaryOn="@string/preferences_talking_caller_id_des_on"
+                android:summaryOff="@string/preferences_talking_caller_id_des_off"
+                android:defaultValue="true"/>
+		
+		<CheckBoxPreference
+                android:key="read_sms"
+                android:title="@string/preferences_read_sms"
+                android:summaryOn="@string/preferences_read_sms_desc_on"
+                android:summaryOff="@string/preferences_read_sms_desc_off"
+                android:defaultValue="true"/>
+                
+				
+</PreferenceScreen>
