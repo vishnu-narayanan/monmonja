@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.almondmendoza.monBattery"
+      android:versionCode="7"
+      android:versionName="2.0.2">
+    
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                
+            </intent-filter>
+        </activity>
+        <service android:name=".BatteryService" />
+        
+        <activity 
+         	android:name=".PrefsActivity" android:label="@string/app_name" 
+        />
+        	
+       
+	    <receiver android:name=".BatteryReceiver">
+	          <intent-filter>
+	              <action android:name="android.intent.action.BOOT_COMPLETED" />
+	          </intent-filter>
+	    </receiver>
+	    
+	    <!--   receiver android:name=".BatteryWidget" android:label="@string/label_tiny">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" /> 
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/batter_widget" />
+        </receiver>
+	    -->
+    </application>
+    
+     
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-sdk android:minSdkVersion="2" />
+</manifest> 
