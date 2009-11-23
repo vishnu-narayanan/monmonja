@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+Copyright (C) 2009 Momonja, http://www.almondmendoza.com/
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:gravity="center_vertical|center_horizontal"
+>
+	<Button
+		android:text="@string/easy"
+		android:id="@+id/btnEasyGame"
+		android:layout_width="190px" 
+    	android:layout_height="wrap_content" 
+    	style="@style/buttonText" 
+    	android:layout_marginTop="135px"
+    	android:textColor="@drawable/default_btn"
+    	/>
+	<Button
+		android:text="@string/medium"
+		android:id="@+id/btnMediumGame"
+		android:layout_width="190px" 
+    	android:layout_height="wrap_content" 
+    	style="@style/buttonText"
+    	android:layout_below="@id/btnEasyGame" android:layout_marginTop="20px"
+    	android:textColor="@drawable/default_btn"
+    />
+	<Button
+		android:text="@string/hard"
+		android:id="@+id/btnHardGame"
+		android:layout_width="190px" 
+    	android:layout_height="wrap_content"
+    	style="@style/buttonText"
+    	android:layout_below="@id/btnMediumGame"
+	android:layout_marginTop="20px"
+	android:textColor="@drawable/default_btn"
+	/>
+	
+
+</RelativeLayout>
