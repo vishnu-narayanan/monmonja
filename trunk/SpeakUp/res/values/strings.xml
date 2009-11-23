@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+Copyright (C) 2009 Momonja, http://www.almondmendoza.com/
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ -->
+<resources>
+    <string name="app_name">Speak Up</string>
+    <string name="pleaseSay">Please say %1s</string>
+    <string name="listOfWords">List of Words to say</string>
+    <string name="startSayingWords">Start Now</string>
+    
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    
+    <string name="numbersOfCorrect">Correct:</string>
+    <string name="results">Results</string>
+    <string name="numbersOfWrong">Wrong:</string>
+    
+    <string name="resultsBack">Back</string>
+    <string name="default_num_words">Number of words</string>
+    <string name="pref_key_words">number_of_words</string>
+    
+    <string name="preferences">Preferences</string>
+    <string name="first_run_title">Instructions</string>
+    <string name="about">About Us</string>
+    <string name="first_run_okay">Okay</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="form_the_words_start">Preparing stage, please wait...</string>
+    
+    
+    <string name="first_run_insert_notification"><![CDATA[Thanks for downloading this application, as this is your first time to run it, we will need to generate the words that will be used later with this app, now this might take few seconds. Then after generating the words, the okay button below will be enabled. We would like to thank you for your patience.
+\n------------\n]]></string>
+    <string name="instructions_main"><![CDATA[This is an application to test your english speaking skills. At this screen you will select from easy stage, medium stage or hard stage. At each stage we would present N numbers of words which you could configure using your menu button and accessing the preferences item.  
+    ]]></string>
+    
+    <string name="instructions"><![CDATA[Here we will present N numbers of words that you need to speak.
+By pressing those words, you would listen how there are supposed to be pronounce. 
+If you wish to start speaking those words, kindly press the start button.
+    ]]></string>
+</resources>
+
